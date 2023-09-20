@@ -19,14 +19,18 @@ This project was another follow up to the <a href = "https://github.com/telkheir
 
 <h2>Navigation</h2>
     <ol>
-      <li><a href = "#step_1"></a></li>
-      <li><a href = "#step_2"></a></li>
-      <li><a href = "#step_3"></a></li>
+      <li><a href = "#step_1">Creating file shares with various permissions</a></li>
+      <li><a href = "#step_2">Accessing file shares as a normal user</a></li>
+      <li><a href = "#step_3">Creating a new security group and testing access</a></li>
     </ol>
 
 <h2>Tutorial</h2>
     <ol>
-      <li><h3 id = "step_1">A-Record Exercise</h3>
+      <li><h3 id = "step_1">Creating file shares with various permissions</h3>
           firstkdfjalsflas
+      </li>
+      <li><h3 id = "step_2">Accessing file shares as a normal user</h3>
+      </li>
+      <li><h3 id = "step_3">Creating a new security group and testing access</h3>
       </li>
     </ol>
