@@ -33,6 +33,33 @@ This project was another follow up to the <a href = "https://github.com/telkheir
               <li>"Write-Access"  -  Group: 'Domain Users'  -  Permissions: 'Read/Write'</li>
               <li>"Accounting"  -  Group: N/A  -  Permissions: N/A</li>
           </ol>
+          <table>
+              <tr>
+                  <th>Name</th>
+                  <th>Group</th>
+                  <th>Permissions</th>
+              </tr>
+              <tr>
+                  <td>Read-Access</td>
+                  <td>Domain Users</td>
+                  <td>Read</td>
+              </tr>
+              <tr>
+                  <td>No-Access</td>
+                  <td>Domain Admins</td>
+                  <td>Read/Write</td>
+              </tr>
+              <tr>
+                  <td>Write-Access</td>
+                  <td>Domain Users</td>
+                  <td>Read/Write</td>
+              </tr>
+              <tr>
+                  <td>Accounting</td>
+                  <td>N/A</td>
+                  <td>N/A</td>
+              </tr>
+          </table>
       </li>
       <li><h3 id = "step_2">Accessing file shares as a normal user</h3>
       </li>
