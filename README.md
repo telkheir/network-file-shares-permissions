@@ -27,7 +27,12 @@ This project was another follow up to the <a href = "https://github.com/telkheir
 <h2>Tutorial</h2>
     <ol>
       <li><h3 id = "step_1">Creating file shares with various permissions</h3>
-          firstkdfjalsflas
+          Use Remote Desktop to login to DC-1 as one of the admin accounts created in the previous <a href = "https://github.com/telkheir/implementing-active-directory">project</a>. We're going to create 4 folders in the C:\ drive and assign them to the following groups and permissions:
+          <ol><li>"Read-Access"  -  Group: 'Domain Users'  -  Permissions: 'Read'</li>
+              <li>"No-Access"  - Group: 'Domain Admins'  -  Permissions: 'Read/Write'</li>
+              <li>"Write-Access"  -  Group: 'Domain Users'  -  Permissions: 'Read/Write'</li>
+              <li>"Accounting"  -  Group: N/A  -  Permissions: N/A</li>
+          </ol>
       </li>
       <li><h3 id = "step_2">Accessing file shares as a normal user</h3>
       </li>
