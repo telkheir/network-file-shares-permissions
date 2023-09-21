@@ -63,7 +63,7 @@ This project was another follow up to the <a href = "https://github.com/telkheir
           <br><br>
       </li>
       <li><h3 id = "step_2">Accessing file shares as a normal user</h3>
-          Now we will use Remote Desktop to access the Client-1 VM as a normal user
+          Now we will use Remote Desktop to access the Client-1 VM as one of the <a href = "https://github.com/telkheir/implementing-active-directory#step_5">normal users we created in the last lab.</a>
       </li>
       <li><h3 id = "step_3">Creating a new security group and testing access</h3>
       </li>
