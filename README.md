@@ -56,14 +56,16 @@ This project was another follow up to the <a href = "https://github.com/telkheir
                   <td>N/A</td>
               </tr>
           </table>
-          <br><br>
           To assign a file to a group, right click the file and go to Properties. Go to the Sharing tab and type the group name you want the file to be added to. Set the permmissions as needed, share the folder, and copy the file path. The video below shows the process of setting up the "No-Access" file share.
           <br><br>
           [video - creating and assigning groups and permissions to no-access file share]
           <br><br>
       </li>
       <li><h3 id = "step_2">Accessing file shares as a normal user</h3>
-          Now we will use Remote Desktop to access the Client-1 VM as one of the <a href = "https://github.com/telkheir/implementing-active-directory#step_5">normal users we created in the last lab.</a>
+          Now we will use Remote Desktop to access the Client-1 VM as one of the normal users we created in the <a href = "https://github.com/telkheir/implementing-active-directory#step_5">last lab</a> to see which files we have access to and what types of changes can be made to them. To quickly navigate to the shared folder, type "\\dc-1" into the address bar of File Explorer.
+          <br><br>
+          [Image - naviagtion to file share]
+          <br><br>
       </li>
       <li><h3 id = "step_3">Creating a new security group and testing access</h3>
       </li>
