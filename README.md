@@ -66,7 +66,17 @@ This project was another follow up to the <a href = "https://github.com/telkheir
           <br><br>
           [Image - naviagtion to file share]
           <br><br>
+          The files we created in the previous step should be in this location, along with some other default folders that were created when we initially set up the domain controller.
+          --------->>>> Test each folders, create some supplemental text files and see what edits you can make to the folders
+          [images]
+          <br><br>
       </li>
       <li><h3 id = "step_3">Creating a new security group and testing access</h3>
+          Return to the DC-1 virtual machine and open Active Directory Users and Computers. We will create a new organizational unit in our domain called "Security-Groups" and within it, a new group called "Accountants" (don't mix this group up with the "Accounting" file share we created in <a href = "step_1">step 1</a>!). 
+          <br><br>
+          [video - making both folder - org unit and group witin]
+          <br><br>
+          Returning to the "Accounting" file share we made in <a href = "step_1">step 1</a> (not the "Accountants" group we just created), we will place it in the 
       </li>
     </ol>
+    <h1>Reorganize this tutorial!!!!</h1>
