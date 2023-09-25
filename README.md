@@ -67,6 +67,7 @@ This project was another follow up to the <a href = "https://github.com/telkheir
           [Image - naviagtion to file share]
           <br><br>
           The files we created in the previous step should be in this location, along with some other default folders that were created when we initially set up the domain controller.
+          br>
           --------->>>> Test each folders, create some supplemental text files and see what edits you can make to the folders
           [images]
           <br><br>
@@ -76,7 +77,13 @@ This project was another follow up to the <a href = "https://github.com/telkheir
           <br><br>
           [video - making both folder - org unit and group witin]
           <br><br>
-          Returning to the "Accounting" file share we made in <a href = "step_1">step 1</a> (not the "Accountants" group we just created), we will place it in the 
+          Returning to the "Accounting" file share we made in <a href = "step_1">step 1</a>, we can now place it in the "Accountants" domain group we just created and assign it "Read/Write" permissions.
+          <br><br>
+          [image - or vid ikd]
+          <br><br>
+          After setting up these new rules for the "Accounting" file share, return to Client-1 and attempt to access the "Accounting" file share as a random user. You should not be allowed access because we have no users in the "Accountants" group we made. Now we will return to the DC-1 virtual machine and assign the user that's currently logged into Client-1 to the "Accountants" domain group, which should allow them access to the "Accounting" file share. Do this in Active Directory Users and Computers and double click the "Accountants" group. Go to Members, click "Add...", and input the username of the account currently logged into Client-1. Return to the Client-1 and test access once again. You may need to log out and back in again, but the user shoould now have access, read, and write permissions.
+          <br><br>
+          [video - accounting folder config]
       </li>
     </ol>
     <h1>Reorganize this tutorial!!!!</h1>
