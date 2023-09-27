@@ -1,7 +1,6 @@
 <h1>Network File Shares and Permissions</h1>
 
-Point of tutorial
-This project was another follow up to the <a href = "https://github.com/telkheir/implementing-active-directory">implementing Active Directory in Azure</a> tutorial.
+This tutorial is another follow up to the <a href = "https://github.com/telkheir/implementing-active-directory">implementing Active Directory in Azure</a> tutorial.
 
 
 <h2>Environments and Technologies Used</h2>
