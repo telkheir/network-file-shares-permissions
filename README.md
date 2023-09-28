@@ -67,7 +67,7 @@ This tutorial is another follow up to the <a href = "https://github.com/telkheir
           <br><br>
           The files we created in the previous step should be in this location, along with some other default folders that were created when we initially set up the domain controller.
           <br>
-          --------->>>> Test each folders, create some supplemental text files and see what edits you can make to the folders
+          --------->>>> Test each folder, create some supplemental text files and see what edits you can make to the folders
           [images]
           <br><br>
       </li>
