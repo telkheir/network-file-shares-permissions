@@ -1,4 +1,4 @@
-<h1>Network File Shares and Permissions</h1>
+<h1>Network File Shares and Permissions (Images coming soon!)</h1>
 
 This tutorial is another follow up to the <a href = "https://github.com/telkheir/implementing-active-directory">implementing Active Directory in Azure</a> tutorial.
 
