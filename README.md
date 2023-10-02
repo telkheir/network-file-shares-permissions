@@ -83,6 +83,6 @@ https://github.com/telkheir/network-file-shares-permissions/assets/145223639/d0d
           <br><br>
           After setting up these new rules for the "Accounting" file share, return to Client-1 and attempt to access the "Accounting" file share as a random user. You should not be allowed access because we have no users in the "Accountants" group we made. Now we will return to the DC-1 virtual machine and assign the user that's currently logged into Client-1 to the "Accountants" domain group, which should allow them access to the "Accounting" file share. Do this in Active Directory Users and Computers and double click the "Accountants" group. Go to Members, click "Add...", and input the username of the account currently logged into Client-1. Return to the Client-1 and test access once again. You may need to log out and back in again, but the user shoould now have access, read, and write permissions.
           <br><br>
-          [video - accounting folder config]
+          <img width="638" alt="active-directory-add-user-security-group-accounting" src="https://github.com/telkheir/network-file-shares-permissions/assets/145223639/7837399a-60b8-4234-a09d-836bd459c8e8">
       </li>
     </ol>
