@@ -51,8 +51,8 @@ This tutorial is another follow up to the <a href = "https://github.com/telkheir
               </tr>
               <tr>
                   <td>Accounting</td>
-                  <td>N/A</td>
-                  <td>N/A</td>
+                  <td>(skip for now)</td>
+                  <td>(skip for now)</td>
               </tr>
           </table>
           To assign a file to a group, right click the file and go to Properties. Go to the Sharing tab and type the group name you want the file to be added to. Set the permmissions as needed, share the folder, and copy the file path. The video below shows the process of setting up the "No-Access" file share.
@@ -64,12 +64,11 @@ https://github.com/telkheir/network-file-shares-permissions/assets/145223639/d0d
       <li><h3 id = "step_2">Accessing file shares as a normal user</h3>
           Now we will use Remote Desktop to access the Client-1 VM as one of the normal users we created in the <a href = "https://github.com/telkheir/implementing-active-directory#step_5">last lab</a> to see which files we have access to and what types of changes can be made to them. To quickly navigate to the shared folder, type "\\dc-1" into the address bar of File Explorer.
           <br><br>
-          [Image - naviagtion to file share]
+          <img width="663" alt="client-device-file-shares" src="https://github.com/telkheir/network-file-shares-permissions/assets/145223639/25584b8a-0c60-46d9-bc2e-25cba6e16357">
           <br><br>
           The files we created in the previous step should be in this location, along with some other default folders that were created when we initially set up the domain controller.
           <br>
-          --------->>>> Test each folder, create some supplemental text files and see what edits you can make to the folders
-          [images]
+          If properly set up, this user should be able to view the Read-Access and Write-Access folders but not the No-Access folder, since they are not a domain admin. The domain user should be able to make edits to files within the Write-Access folder but not the Read-Access folder. If I login to the Client-1 device as a domain admin, I should now be able to view and made edits to the No-Access file share as well as the other two.
           <br><br>
       </li>
       <li><h3 id = "step_3">Creating a new security group and testing access</h3>
